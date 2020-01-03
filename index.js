@@ -54,7 +54,7 @@ function placeOrder(cardNumber) {
   }
   const totalCart = total()
   cart.splice(0)
-  return `Your total cost is /$${totalCart}, which will be charged to the card ${cardNumber}.`
+  return `Your total cost is \$${totalCart}, which will be charged to the card ${cardNumber}.`
 }
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
